@@ -536,7 +536,7 @@ shape = SubResource("RectangleShape2D_ku5hj")
 
 [node name="EnemyEffect" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_6nhye")
-animation = &"attack_effect"
+animation = &"idle"
 
 [node name="Area2D" type="Area2D" parent="."]
 
