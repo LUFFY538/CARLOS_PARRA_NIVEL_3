@@ -40,9 +40,9 @@ size = Vector2(27, 20)
 
 [node name="Box" type="RigidBody2D"]
 input_pickable = true
-max_contacts_reported = 100
-contact_monitor = true
 lock_rotation = true
+contact_monitor = true
+max_contacts_reported = 100
 script = ExtResource("1_5lw12")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
