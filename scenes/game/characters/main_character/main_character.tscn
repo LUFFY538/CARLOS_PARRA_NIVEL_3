@@ -1,56 +1,26 @@
-[gd_scene load_steps=74 format=3 uid="uid://ca3ueo0yewjov"]
+[gd_scene load_steps=108 format=3 uid="uid://ca3ueo0yewjov"]
 
-[ext_resource type="Texture2D" uid="uid://xd70a23vyklm" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/15_attack_1/attack_1_01.png" id="2_082ap"]
 [ext_resource type="Texture2D" uid="uid://dxflqrst5dy31" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_without_sword/01-idle/idle_01.png" id="2_dghf6"]
-[ext_resource type="Texture2D" uid="uid://lffdngv5hdqv" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/15_attack_1/attack_1_02.png" id="3_ejl7h"]
 [ext_resource type="Script" path="res://scenes/game/characters/main_character/MainCharacterBomb.gd" id="3_odvu6"]
 [ext_resource type="Texture2D" uid="uid://blgvtq8v7xeg1" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_without_sword/01-idle/idle_02.png" id="3_rorqg"]
-[ext_resource type="Texture2D" uid="uid://myh4i50e65jg" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/15_attack_1/attack_1_03.png" id="4_251hd"]
 [ext_resource type="Texture2D" uid="uid://bqhc3cxnlse2b" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_without_sword/01-idle/idle_03.png" id="4_g25du"]
-[ext_resource type="Texture2D" uid="uid://hievmp44qs2l" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/16_attack_2/attack_2_01.png" id="5_fnkbq"]
+[ext_resource type="Texture2D" uid="uid://c4kl45m81x5dx" path="res://assets/New_sprites/Legacy-Fantasy - High Forest 2.3/Character/Attack-01/Attack-01-Sheet.png" id="4_itumn"]
 [ext_resource type="Texture2D" uid="uid://dallw3lwfn24p" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/18_air_attack_1/air_attack_1_01.png" id="5_mivj5"]
 [ext_resource type="Texture2D" uid="uid://c8die1kuusyrb" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_without_sword/01-idle/idle_04.png" id="5_op2l2"]
 [ext_resource type="Texture2D" uid="uid://duvyxhctaqqwe" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/18_air_attack_1/air_attack_1_02.png" id="6_18qxs"]
-[ext_resource type="Texture2D" uid="uid://dyxlmgv0hq0kv" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/16_attack_2/attack_2_02.png" id="6_ggjx7"]
 [ext_resource type="Texture2D" uid="uid://ds4p0uhg4fyws" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_without_sword/01-idle/idle_05.png" id="6_mk8qw"]
 [ext_resource type="Script" path="res://scenes/game/characters/main_character/main_character_movement.gd" id="7_fm4k8"]
 [ext_resource type="Texture2D" uid="uid://dgxppr5eljxlf" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/18_air_attack_1/air_attack_1_03.png" id="7_juv42"]
-[ext_resource type="Texture2D" uid="uid://lxg0tnu0y2ia" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/16_attack_2/attack_2_03.png" id="7_vw8e4"]
-[ext_resource type="Texture2D" uid="uid://c2eoy8c3ypyk1" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/17_attack_3/attack_3_01.png" id="8_0kmi8"]
-[ext_resource type="Texture2D" uid="uid://bi0tjjqm368wn" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/17_attack_3/attack_3_02.png" id="9_muuna"]
 [ext_resource type="Texture2D" uid="uid://diuerkv0n2f4d" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/sword_effects/25-attack_2/attack_2_01.png" id="10_1aidl"]
-[ext_resource type="Texture2D" uid="uid://blp1fn7tchnw" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/17_attack_3/attack_3_03.png" id="10_efncg"]
-[ext_resource type="Texture2D" uid="uid://clbso6akwdcft" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/09_idle_sword/idle_sword_01.png" id="10_phs82"]
-[ext_resource type="Texture2D" uid="uid://b1tmodx1q7bxg" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/12_fall_sword/fall_sword_01.png" id="10_uoinh"]
-[ext_resource type="Texture2D" uid="uid://clyukk8lho2fv" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/09_idle_sword/idle_sword_02.png" id="11_j36op"]
 [ext_resource type="Texture2D" uid="uid://b107itpfhsblm" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/sword_effects/25-attack_2/attack_2_02.png" id="11_qm4vv"]
-[ext_resource type="Texture2D" uid="uid://cvp7qu6ou0beo" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/14_hit_sword/hit_sword_01.png" id="11_spt4m"]
-[ext_resource type="Texture2D" uid="uid://ev4iwk8p70c" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/09_idle_sword/idle_sword_03.png" id="12_0i2xi"]
-[ext_resource type="Texture2D" uid="uid://c3r8mgixho1un" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/14_hit_sword/hit_sword_02.png" id="12_r62e3"]
 [ext_resource type="Texture2D" uid="uid://bbcsy2nv17cpl" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/sword_effects/25-attack_2/attack_2_03.png" id="12_wjmjd"]
-[ext_resource type="Texture2D" uid="uid://duj0v6f8e18x6" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/09_idle_sword/idle_sword_04.png" id="13_glcic"]
-[ext_resource type="Texture2D" uid="uid://copn5jr6yv0wh" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/14_hit_sword/hit_sword_03.png" id="13_uj6mo"]
-[ext_resource type="Texture2D" uid="uid://cohjvinre4pwy" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/14_hit_sword/hit_sword_04.png" id="14_6fnvh"]
-[ext_resource type="Texture2D" uid="uid://efc6hgl8bbk7" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/09_idle_sword/idle_sword_05.png" id="14_iupfh"]
-[ext_resource type="Texture2D" uid="uid://df7nx2ake5lsv" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/11_jump_sword/jump_sword_01.png" id="15_ns1ok"]
-[ext_resource type="Texture2D" uid="uid://bv4a017sgfx5c" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_without_sword/08-dead_ground/dead_ground_01.png" id="16_hso30"]
-[ext_resource type="Texture2D" uid="uid://bb7nb2uufrfj7" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/11_jump_sword/jump_sword_02.png" id="16_rllyj"]
-[ext_resource type="Texture2D" uid="uid://y0k7rub28g2a" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_without_sword/08-dead_ground/dead_ground_02.png" id="17_cwioy"]
-[ext_resource type="Texture2D" uid="uid://gln17yqk428u" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/11_jump_sword/jump_sword_03.png" id="17_qpw1l"]
-[ext_resource type="Texture2D" uid="uid://df5rvcltdb56d" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_without_sword/08-dead_ground/dead_ground_03.png" id="18_2gbqb"]
-[ext_resource type="Texture2D" uid="uid://ddpfnteeok3m3" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/10_run_sword/run_sword_01.png" id="18_lbuwl"]
-[ext_resource type="Texture2D" uid="uid://5x05v74kj18r" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_without_sword/08-dead_ground/dead_ground_04.png" id="19_b5u2l"]
-[ext_resource type="Texture2D" uid="uid://dhlr32reuy1cq" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/10_run_sword/run_sword_02.png" id="19_o8mfw"]
-[ext_resource type="Texture2D" uid="uid://bhg2jiah03q80" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_without_sword/07-dead_hit/dead_hit_01.png" id="20_2ax7x"]
-[ext_resource type="Texture2D" uid="uid://bm8xejat3pwxa" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/10_run_sword/run_sword_03.png" id="20_kbjju"]
+[ext_resource type="Texture2D" uid="uid://diu2wrpymr8k1" path="res://assets/New_sprites/Legacy-Fantasy - High Forest 2.3/Character/Dead/Dead-Sheet.png" id="14_lqb3b"]
+[ext_resource type="Texture2D" uid="uid://crpm1entv0ubl" path="res://assets/New_sprites/Legacy-Fantasy - High Forest 2.3/Character/Jump-End/Jump-End-Sheet.png" id="20_hldm8"]
 [ext_resource type="Texture2D" uid="uid://blpgguk4mj6k5" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/13_ground_sword/ground_sword_01.png" id="20_w36nj"]
-[ext_resource type="Texture2D" uid="uid://4px5b5bkagyh" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/10_run_sword/run_sword_04.png" id="21_3ysj4"]
-[ext_resource type="Texture2D" uid="uid://b3i7q2r7mfx54" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_without_sword/07-dead_hit/dead_hit_02.png" id="21_8g4w3"]
 [ext_resource type="Texture2D" uid="uid://dlw0nfpr0botb" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/13_ground_sword/ground_sword_02.png" id="21_ra5y8"]
-[ext_resource type="Texture2D" uid="uid://bb038lyw5wm27" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_without_sword/07-dead_hit/dead_hit_03.png" id="22_0thvi"]
-[ext_resource type="Texture2D" uid="uid://s5ytylv83omm" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/10_run_sword/run_sword_05.png" id="22_223o7"]
-[ext_resource type="Texture2D" uid="uid://bvpimlytuuhkp" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_without_sword/07-dead_hit/dead_hit_04.png" id="23_0sshq"]
-[ext_resource type="Texture2D" uid="uid://ds3gcjvprgtqy" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/captain_clown_nose/captain_clown_nose_with_sword/10_run_sword/run_sword_06.png" id="23_157le"]
+[ext_resource type="Texture2D" uid="uid://bneuph1300fec" path="res://assets/New_sprites/Legacy-Fantasy - High Forest 2.3/Character/Idle/Idle-Sheet.png" id="23_ri42q"]
+[ext_resource type="Texture2D" uid="uid://cgtt7351isnmw" path="res://assets/New_sprites/Legacy-Fantasy - High Forest 2.3/Character/Jumlp-All/Jump-All-Sheet.png" id="25_5fog5"]
+[ext_resource type="Texture2D" uid="uid://bbrvqicjpd1i3" path="res://assets/New_sprites/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png" id="26_dsn7v"]
 [ext_resource type="Texture2D" uid="uid://c5234cfrkd7i2" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/dust_particles/fall_01.png" id="41_6a4mw"]
 [ext_resource type="Texture2D" uid="uid://chvl4pfhnydl0" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/dust_particles/fall_02.png" id="42_yjra8"]
 [ext_resource type="Texture2D" uid="uid://cqja7i2c4ka4q" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/dust_particles/fall_03.png" id="43_g1ou6"]
@@ -69,17 +39,288 @@
 [ext_resource type="Texture2D" uid="uid://dfilactnw23ej" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/dust_particles/run_05.png" id="56_e847i"]
 [ext_resource type="Script" path="res://scenes/game/characters/main_character/main_character_collision.gd" id="57_7h47x"]
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_8a2t3"]
+atlas = ExtResource("4_itumn")
+region = Rect2(0, 0, 96, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0p2so"]
+atlas = ExtResource("4_itumn")
+region = Rect2(96, 0, 96, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r0qra"]
+atlas = ExtResource("4_itumn")
+region = Rect2(192, 0, 96, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sngk0"]
+atlas = ExtResource("4_itumn")
+region = Rect2(288, 0, 96, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6o0k3"]
+atlas = ExtResource("4_itumn")
+region = Rect2(384, 0, 96, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0qcdr"]
+atlas = ExtResource("4_itumn")
+region = Rect2(480, 0, 96, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ewmy"]
+atlas = ExtResource("4_itumn")
+region = Rect2(576, 0, 96, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ybcwh"]
+atlas = ExtResource("4_itumn")
+region = Rect2(672, 0, 96, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c683c"]
+atlas = ExtResource("4_itumn")
+region = Rect2(192, 0, 96, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5i6u7"]
+atlas = ExtResource("4_itumn")
+region = Rect2(288, 0, 96, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qssdd"]
+atlas = ExtResource("4_itumn")
+region = Rect2(384, 0, 96, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ga5v"]
+atlas = ExtResource("4_itumn")
+region = Rect2(480, 0, 96, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wit85"]
+atlas = ExtResource("4_itumn")
+region = Rect2(576, 0, 96, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lrsng"]
+atlas = ExtResource("4_itumn")
+region = Rect2(672, 0, 96, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gxx0w"]
+atlas = ExtResource("4_itumn")
+region = Rect2(288, 0, 96, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qkr0r"]
+atlas = ExtResource("4_itumn")
+region = Rect2(192, 0, 96, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5p40i"]
+atlas = ExtResource("4_itumn")
+region = Rect2(96, 0, 96, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x615g"]
+atlas = ExtResource("4_itumn")
+region = Rect2(576, 0, 96, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pp87v"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(0, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ch2o1"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(80, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6rq01"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(160, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fimhn"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(240, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q22b4"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(320, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o7e5n"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(400, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_038jl"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(480, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bfhka"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(560, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jpalp"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(0, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g71sy"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(80, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nune7"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(160, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0v7re"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(240, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vtdyb"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(320, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6nr4k"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(400, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ib501"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(480, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dqnr3"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(560, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3hftt"]
+atlas = ExtResource("20_hldm8")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d8ldd"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(0, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5xiuo"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(80, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pk544"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(160, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lyuts"]
+atlas = ExtResource("14_lqb3b")
+region = Rect2(240, 0, 80, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ym6ts"]
+atlas = ExtResource("23_ri42q")
+region = Rect2(0, 0, 64, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yyd0t"]
+atlas = ExtResource("23_ri42q")
+region = Rect2(64, 0, 64, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hm38m"]
+atlas = ExtResource("23_ri42q")
+region = Rect2(128, 0, 64, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sbid1"]
+atlas = ExtResource("23_ri42q")
+region = Rect2(192, 0, 64, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n5uhe"]
+atlas = ExtResource("25_5fog5")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fj4wu"]
+atlas = ExtResource("25_5fog5")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5jxl4"]
+atlas = ExtResource("25_5fog5")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x6aw8"]
+atlas = ExtResource("25_5fog5")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vlqgr"]
+atlas = ExtResource("25_5fog5")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l2abw"]
+atlas = ExtResource("25_5fog5")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wihu4"]
+atlas = ExtResource("25_5fog5")
+region = Rect2(384, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wogx6"]
+atlas = ExtResource("25_5fog5")
+region = Rect2(448, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rnow5"]
+atlas = ExtResource("25_5fog5")
+region = Rect2(512, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_027p5"]
+atlas = ExtResource("25_5fog5")
+region = Rect2(576, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cb2d0"]
+atlas = ExtResource("25_5fog5")
+region = Rect2(640, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ynldo"]
+atlas = ExtResource("25_5fog5")
+region = Rect2(704, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_swe0h"]
+atlas = ExtResource("25_5fog5")
+region = Rect2(832, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l4olk"]
+atlas = ExtResource("26_dsn7v")
+region = Rect2(0, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j0dlj"]
+atlas = ExtResource("26_dsn7v")
+region = Rect2(80, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ymkph"]
+atlas = ExtResource("26_dsn7v")
+region = Rect2(160, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uhhdx"]
+atlas = ExtResource("26_dsn7v")
+region = Rect2(240, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ai76"]
+atlas = ExtResource("26_dsn7v")
+region = Rect2(320, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_byovs"]
+atlas = ExtResource("26_dsn7v")
+region = Rect2(400, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qwv7e"]
+atlas = ExtResource("26_dsn7v")
+region = Rect2(480, 0, 80, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jy8es"]
+atlas = ExtResource("26_dsn7v")
+region = Rect2(560, 0, 80, 80)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_sohxe"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_082ap")
+"texture": SubResource("AtlasTexture_8a2t3")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_ejl7h")
+"texture": SubResource("AtlasTexture_0p2so")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_251hd")
+"texture": SubResource("AtlasTexture_r0qra")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sngk0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6o0k3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0qcdr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ewmy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ybcwh")
 }],
 "loop": false,
 "name": &"attack_1",
@@ -87,13 +328,22 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("5_fnkbq")
+"texture": SubResource("AtlasTexture_c683c")
 }, {
 "duration": 1.0,
-"texture": ExtResource("6_ggjx7")
+"texture": SubResource("AtlasTexture_5i6u7")
 }, {
 "duration": 1.0,
-"texture": ExtResource("7_vw8e4")
+"texture": SubResource("AtlasTexture_qssdd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ga5v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wit85")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lrsng")
 }],
 "loop": false,
 "name": &"attack_2",
@@ -101,13 +351,16 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("8_0kmi8")
+"texture": SubResource("AtlasTexture_gxx0w")
 }, {
 "duration": 1.0,
-"texture": ExtResource("9_muuna")
+"texture": SubResource("AtlasTexture_qkr0r")
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_efncg")
+"texture": SubResource("AtlasTexture_5p40i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x615g")
 }],
 "loop": false,
 "name": &"attack_3",
@@ -129,16 +382,28 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("16_hso30")
+"texture": SubResource("AtlasTexture_pp87v")
 }, {
 "duration": 1.0,
-"texture": ExtResource("17_cwioy")
+"texture": SubResource("AtlasTexture_ch2o1")
 }, {
 "duration": 1.0,
-"texture": ExtResource("18_2gbqb")
+"texture": SubResource("AtlasTexture_6rq01")
 }, {
 "duration": 1.0,
-"texture": ExtResource("19_b5u2l")
+"texture": SubResource("AtlasTexture_fimhn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q22b4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o7e5n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_038jl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bfhka")
 }],
 "loop": false,
 "name": &"dead_ground",
@@ -146,16 +411,28 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("20_2ax7x")
+"texture": SubResource("AtlasTexture_jpalp")
 }, {
 "duration": 1.0,
-"texture": ExtResource("21_8g4w3")
+"texture": SubResource("AtlasTexture_g71sy")
 }, {
 "duration": 1.0,
-"texture": ExtResource("22_0thvi")
+"texture": SubResource("AtlasTexture_nune7")
 }, {
 "duration": 1.0,
-"texture": ExtResource("23_0sshq")
+"texture": SubResource("AtlasTexture_0v7re")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vtdyb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6nr4k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ib501")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dqnr3")
 }],
 "loop": false,
 "name": &"dead_hit",
@@ -183,7 +460,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("10_uoinh")
+"texture": SubResource("AtlasTexture_3hftt")
 }],
 "loop": true,
 "name": &"fall_with_sword",
@@ -202,16 +479,16 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("11_spt4m")
+"texture": SubResource("AtlasTexture_d8ldd")
 }, {
 "duration": 1.0,
-"texture": ExtResource("12_r62e3")
+"texture": SubResource("AtlasTexture_5xiuo")
 }, {
 "duration": 1.0,
-"texture": ExtResource("13_uj6mo")
+"texture": SubResource("AtlasTexture_pk544")
 }, {
 "duration": 1.0,
-"texture": ExtResource("14_6fnvh")
+"texture": SubResource("AtlasTexture_lyuts")
 }],
 "loop": false,
 "name": &"hit_with_sword",
@@ -219,19 +496,16 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("10_phs82")
+"texture": SubResource("AtlasTexture_ym6ts")
 }, {
 "duration": 1.0,
-"texture": ExtResource("11_j36op")
+"texture": SubResource("AtlasTexture_yyd0t")
 }, {
 "duration": 1.0,
-"texture": ExtResource("12_0i2xi")
+"texture": SubResource("AtlasTexture_hm38m")
 }, {
 "duration": 1.0,
-"texture": ExtResource("13_glcic")
-}, {
-"duration": 1.0,
-"texture": ExtResource("14_iupfh")
+"texture": SubResource("AtlasTexture_sbid1")
 }],
 "loop": true,
 "name": &"idle_with_sword",
@@ -239,13 +513,43 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("15_ns1ok")
+"texture": SubResource("AtlasTexture_n5uhe")
 }, {
 "duration": 1.0,
-"texture": ExtResource("16_rllyj")
+"texture": SubResource("AtlasTexture_fj4wu")
 }, {
 "duration": 1.0,
-"texture": ExtResource("17_qpw1l")
+"texture": SubResource("AtlasTexture_5jxl4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x6aw8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vlqgr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l2abw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wihu4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wogx6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rnow5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_027p5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cb2d0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ynldo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_swe0h")
 }],
 "loop": true,
 "name": &"jump_with_sword",
@@ -253,22 +557,28 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("18_lbuwl")
+"texture": SubResource("AtlasTexture_l4olk")
 }, {
 "duration": 1.0,
-"texture": ExtResource("19_o8mfw")
+"texture": SubResource("AtlasTexture_j0dlj")
 }, {
 "duration": 1.0,
-"texture": ExtResource("20_kbjju")
+"texture": SubResource("AtlasTexture_ymkph")
 }, {
 "duration": 1.0,
-"texture": ExtResource("21_3ysj4")
+"texture": SubResource("AtlasTexture_uhhdx")
 }, {
 "duration": 1.0,
-"texture": ExtResource("22_223o7")
+"texture": SubResource("AtlasTexture_4ai76")
 }, {
 "duration": 1.0,
-"texture": ExtResource("23_157le")
+"texture": SubResource("AtlasTexture_byovs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qwv7e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jy8es")
 }],
 "loop": true,
 "name": &"run_with_sword",
@@ -395,7 +705,7 @@ script = ExtResource("3_odvu6")
 
 [node name="Animation" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_sohxe")
-animation = &"jump_with_sword"
+animation = &"attack_3"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-1, -2.5)
