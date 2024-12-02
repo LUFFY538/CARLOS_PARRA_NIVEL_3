@@ -585,8 +585,8 @@ animations = [{
 "speed": 8.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_q04ya"]
-size = Vector2(24, 25)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jvvgi"]
+height = 42.0
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_cwldb"]
 animations = [{
@@ -704,12 +704,13 @@ character = NodePath("..")
 script = ExtResource("3_odvu6")
 
 [node name="Animation" type="AnimatedSprite2D" parent="."]
+z_as_relative = false
 sprite_frames = SubResource("SpriteFrames_sohxe")
 animation = &"attack_3"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-1, -2.5)
-shape = SubResource("RectangleShape2D_q04ya")
+position = Vector2(3, 4)
+shape = SubResource("CapsuleShape2D_jvvgi")
 
 [node name="Effects" type="AnimatedSprite2D" parent="."]
 visible = false
@@ -727,7 +728,7 @@ animation = &"idle"
 [node name="AreaSword" type="Area2D" parent="." groups=["hit"]]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AreaSword"]
-position = Vector2(21.5, 6)
+position = Vector2(28, 6)
 scale = Vector2(2, 2)
 shape = SubResource("RectangleShape2D_841yf")
 disabled = true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://csfx5yypo0grs"
+path="res://.godot/imported/Endless Reverie (Intro Theme Song).mp3-6f4a05262730e2c0d2448fb053e73a5b.mp3str"
+
+[deps]
+
+source_file="res://Endless Reverie (Intro Theme Song).mp3"
+dest_files=["res://.godot/imported/Endless Reverie (Intro Theme Song).mp3-6f4a05262730e2c0d2448fb053e73a5b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
